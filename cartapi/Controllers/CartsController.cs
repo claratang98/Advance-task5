@@ -97,7 +97,7 @@ namespace cartapi.Controllers
             {
                 channel.QueueDeclare(queue: "orders", durable: false, exclusive: false, autoDelete: false, arguments: null);
 
-                string message = "Type: ORDER_CREATED | Order ID:" + cart.CartId + "|Product Id:" + cart.ProductId + "|Product Prices:" + cart.ProductPrices + "|Total:" + cart.Total + "|Order Status:" + cart.OrderStatus + "|Order Id:" + cart.OrderId; 
+                string message = "Type: ORDER_CREATED | Cart ID:" + cart.CartId + "|Product Id:" + cart.ProductId + "|Product Prices:" + cart.ProductPrices + "|Total:" + cart.Total + "|Order Status:" + cart.OrderStatus + "|Order Id:" + cart.OrderId; 
                 var body = Encoding.UTF8.GetBytes(message);
 
                 channel.BasicPublish(exchange: "", routingKey: "orders", basicProperties: null, body: body);
