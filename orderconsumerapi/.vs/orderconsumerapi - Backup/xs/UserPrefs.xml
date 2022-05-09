@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{6D6FE342-B53B-40EB-80B1-C038D3A22909}|orderconsumerapi">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Consumer/Orderprocessor.cs">
+    <Files>
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="Dockerfile" />
+      <File FileName="orderconsumerapi.csproj.user" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Consumer/Orderprocessor.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="orderconsumerapi" expanded="True">
+            <Node name="orderconsumerapi" expanded="True">
+              <Node name="Consumer" expanded="True">
+                <Node name="Orderprocessor.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="orderconsumerapi - Backup" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.orderconsumerapi_220-_220Backup PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{9F873787-63E8-4998-82F2-3F592C1AD917}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
+    <Files>
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="Dockerfile" Line="1" Column="1" />
+      <File FileName="orderconsumerapi.csproj.user" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Consumer/Orderprocessor.cs" />
+      <File FileName="Services/OrderService.cs" Line="113" Column="57" />
+      <File FileName="Model/orderconsumer.cs" Line="1" Column="1" />
+      <File FileName="Model/orderconsumerDbContext.cs" Line="17" Column="23" />
+      <File FileName="Consumer/orderconsumerDbcontext.cs" Line="1" Column="1" />
+      <File FileName="Models/Orderconsumer.cs" Line="1" Column="1" />
+      <File FileName="Controllers/OrderconsumerController.cs" Line="63" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="orderconsumerapi" expanded="True">
+            <Node name="orderconsumerapi" expanded="True">
+              <Node name="Consumer" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Dockerfile" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.orderconsumerapi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

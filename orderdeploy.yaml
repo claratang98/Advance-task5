@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order
+spec:
+  selector:
+    matchLabels:
+      app: order
+  template:
+    metadata:
+      labels:
+        app: order
+    spec:
+      containers:
+      - name: order
+        image: claratang98/order:2.0
+        resources:
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8080
+        env:
+          - name: DbServer
+            value: jdbc:sqlserver://db-mssql
+          - name: DbUser
+            value: guest
+          - name: Password
+            value: guest
+          - name: Database
+            value: OrdersDb        
+             
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: order
+spec:
+  type: NodePort
+  selector:
+    app: order
+  ports:
+  - port: 80
+    targetPort: 8080
+    nodePort: 32244
