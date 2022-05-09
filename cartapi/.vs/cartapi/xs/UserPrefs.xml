@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{10EBEEA9-3F3F-4A1E-A151-DCC6A4CFB8DA}|Default">
+  <MonoDevelop.Ide.ItemProperties.cartapi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Cart.cs">
+    <Files>
+      <File FileName="appsettings.Development.json" Line="12" Column="31" />
+      <File FileName="appsettings.json" />
+      <File FileName="cartapi.csproj.user" />
+      <File FileName="Dockerfile" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Controllers/CartsController.cs" />
+      <File FileName="Models/Cart.cs" Line="19" Column="30" />
+      <File FileName="Models/CartDbContext.cs" />
+      <File FileName="Services/CartService.cs" Line="51" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cartapi" expanded="True">
+            <Node name="cartapi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Cart.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

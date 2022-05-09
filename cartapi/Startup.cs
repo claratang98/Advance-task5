@@ -29,6 +29,7 @@ namespace cartapi
         {
 
             services.AddControllers();
+            services.AddHostedService<CartService>();
             services.AddDbContext<CartDbContext>(opt =>
                                                opt.UseInMemoryDatabase("TodoList"));
             //services.AddSwaggerGen(c =>

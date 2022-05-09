@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tanggy\\Desktop\\Advance things\\AdvanceSubmissions\\astar-final-assessment\\cartapi\\cartapi.csproj": {}
+    "/Users/tanggy/Desktop/Microservices Training/Advance things/Resubmission-Task5/Advance-task1/cartapi/cartapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tanggy\\Desktop\\Advance things\\AdvanceSubmissions\\astar-final-assessment\\cartapi\\cartapi.csproj": {
+    "/Users/tanggy/Desktop/Microservices Training/Advance things/Resubmission-Task5/Advance-task1/cartapi/cartapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tanggy\\Desktop\\Advance things\\AdvanceSubmissions\\astar-final-assessment\\cartapi\\cartapi.csproj",
+        "projectUniqueName": "/Users/tanggy/Desktop/Microservices Training/Advance things/Resubmission-Task5/Advance-task1/cartapi/cartapi.csproj",
         "projectName": "cartapi",
-        "projectPath": "C:\\Users\\tanggy\\Desktop\\Advance things\\AdvanceSubmissions\\astar-final-assessment\\cartapi\\cartapi.csproj",
-        "packagesPath": "C:\\Users\\tanggy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tanggy\\Desktop\\Advance things\\AdvanceSubmissions\\astar-final-assessment\\cartapi\\obj\\",
+        "projectPath": "/Users/tanggy/Desktop/Microservices Training/Advance things/Resubmission-Task5/Advance-task1/cartapi/cartapi.csproj",
+        "packagesPath": "/Users/tanggy/.nuget/packages/",
+        "outputPath": "/Users/tanggy/Desktop/Microservices Training/Advance things/Resubmission-Task5/Advance-task1/cartapi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanggy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/tanggy/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
